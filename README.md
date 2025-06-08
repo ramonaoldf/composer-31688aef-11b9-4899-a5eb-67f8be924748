@@ -1,16 +1,14 @@
 # Laravel Breeze
 
-<p align="center">
-    <a href="https://packagist.org/packages/presttec/laravel-breeze">
-        <img src="https://img.shields.io/packagist/dt/presttec/laravel-breeze" alt="Total Downloads">
-    </a>
-    <a href="https://packagist.org/packages/presttec/laravel-breeze">
-        <img src="https://img.shields.io/packagist/v/presttec/laravel-breeze" alt="Latest Stable Version">
-    </a>
-    <a href="https://packagist.org/packages/presttec/laravel-breeze">
-        <img src="https://img.shields.io/packagist/l/presttec/laravel-breeze" alt="License">
-    </a>
-</p>
+<a href="https://packagist.org/packages/presttec/laravel-breeze">
+    <img src="https://img.shields.io/packagist/dt/presttec/laravel-breeze" alt="Total Downloads">
+</a>
+<a href="https://packagist.org/packages/presttec/laravel-breeze">
+    <img src="https://img.shields.io/packagist/v/presttec/laravel-breeze" alt="Latest Stable Version">
+</a>
+<a href="https://packagist.org/packages/presttec/laravel-breeze">
+    <img src="https://img.shields.io/packagist/l/presttec/laravel-breeze" alt="License">
+</a>
 
 ## Introduction
 
@@ -25,7 +23,7 @@ laravel new my-app
 
 cd my-app
 
-composer require presttec/laravel-breeze
+composer require presttec/laravel-breeze --dev
 
 php artisan breeze:install
 ```
