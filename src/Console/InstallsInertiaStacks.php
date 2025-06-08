@@ -19,7 +19,7 @@ trait InstallsInertiaStacks
         // NPM Packages...
         $this->updateNodePackages(function ($packages) {
             return [
-                '@inertiajs/inertia' => '^0.10.0',
+                '@inertiajs/inertia' => '^0.11.0',
                 '@inertiajs/inertia-vue3' => '^0.6.0',
                 '@inertiajs/progress' => '^0.2.6',
                 '@tailwindcss/forms' => '^0.4.0',
@@ -96,7 +96,7 @@ trait InstallsInertiaStacks
         $this->updateNodePackages(function ($packages) {
             return [
                 '@headlessui/react' => '^1.4.2',
-                '@inertiajs/inertia' => '^0.10.0',
+                '@inertiajs/inertia' => '^0.11.0',
                 '@inertiajs/inertia-react' => '^0.8.0',
                 '@inertiajs/progress' => '^0.2.6',
                 '@tailwindcss/forms' => '^0.4.0',
