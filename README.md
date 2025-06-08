@@ -1,15 +1,9 @@
 <p align="center"><img src="/art/logo.svg" alt="Logo Laravel Breeze"></p>
 
 <p align="center">
-    <a href="https://packagist.org/packages/presttec/laravel-breeze">
-        <img src="https://img.shields.io/packagist/dt/presttec/laravel-breeze" alt="Total Downloads">
-    </a>
-    <a href="https://packagist.org/packages/presttec/laravel-breeze">
-        <img src="https://img.shields.io/packagist/v/presttec/laravel-breeze" alt="Latest Stable Version">
-    </a>
-    <a href="https://packagist.org/packages/presttec/laravel-breeze">
-        <img src="https://img.shields.io/packagist/l/presttec/laravel-breeze" alt="License">
-    </a>
+    <a href="https://packagist.org/packages/presttec/laravel-breeze"><img src="https://img.shields.io/packagist/dt/presttec/laravel-breeze" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/presttec/laravel-breeze"><img src="https://img.shields.io/packagist/v/presttec/laravel-breeze" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/presttec/laravel-breeze"><img src="https://img.shields.io/packagist/l/presttec/laravel-breeze" alt="License"></a>
 </p>
 
 ## Introduction
