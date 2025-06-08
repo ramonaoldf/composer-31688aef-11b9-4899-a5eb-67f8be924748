@@ -18,15 +18,15 @@
     ],
     "require": {
         "php": "^8.2.0",
-        "presttec\/illuminate-console": "^11.0",
-        "presttec\/illuminate-filesystem": "^11.0",
-        "presttec\/illuminate-support": "^11.0",
-        "presttec\/illuminate-validation": "^11.0",
+        "presttec\/illuminate-console": "^11.0|^12.0",
+        "presttec\/illuminate-filesystem": "^11.0|^12.0",
+        "presttec\/illuminate-support": "^11.0|^12.0",
+        "presttec\/illuminate-validation": "^11.0|^12.0",
         "presttec\/console": "^7.0"
     },
     "require-dev": {
-        "presttec\/laravel-framework": "^11.0",
-        "presttec\/testbench-core": "^9.0",
+        "presttec\/laravel-framework": "^11.0|^12.0",
+        "presttec\/testbench-core": "^9.0|^10.0",
         "presttec\/phpstan": "^2.0"
     },
     "autoload": {
