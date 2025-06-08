@@ -18,9 +18,9 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "presttec\/illuminate-filesystem": "^8.40",
-        "presttec\/illuminate-support": "^8.40",
-        "presttec\/illuminate-validation": "^8.40"
+        "presttec\/illuminate-filesystem": "^8.42",
+        "presttec\/illuminate-support": "^8.42",
+        "presttec\/illuminate-validation": "^8.42"
     },
     "autoload": {
         "psr-4": {
