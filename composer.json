@@ -18,9 +18,10 @@
     ],
     "require": {
         "php": "^8.0.2",
-        "presttec\/illuminate-filesystem": "^9.0",
-        "presttec\/illuminate-support": "^9.0",
-        "presttec\/illuminate-validation": "^9.0"
+        "presttec\/illuminate-console": "^9.21",
+        "presttec\/illuminate-filesystem": "^9.21",
+        "presttec\/illuminate-support": "^9.21",
+        "presttec\/illuminate-validation": "^9.21"
     },
     "conflict": {
         "laravel\/framework": "<9.19.0"
