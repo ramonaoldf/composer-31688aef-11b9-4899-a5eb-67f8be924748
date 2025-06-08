@@ -110,7 +110,7 @@ trait InstallsInertiaStacks
 
         $this->replaceInFile("'enabled' => false", "'enabled' => true", config_path('inertia.php'));
         $this->replaceInFile('vite build', 'vite build && vite build --ssr', base_path('package.json'));
-        $this->replaceInFile('/storage/*.key', '/storage/ssr'.PHP_EOL.'/storage/*.key', base_path('.gitignore'));
+        $this->replaceInFile('/node_modules', '/bootstrap/ssr'.PHP_EOL.'/node_modules', base_path('.gitignore'));
     }
 
     /**
@@ -185,7 +185,10 @@ trait InstallsInertiaStacks
         copy(__DIR__.'/../../stubs/inertia-common/jsconfig.json', base_path('jsconfig.json'));
         copy(__DIR__.'/../../stubs/inertia-react/vite.config.js', base_path('vite.config.js'));
         copy(__DIR__.'/../../stubs/inertia-react/resources/js/app.jsx', resource_path('js/app.jsx'));
-        unlink(resource_path('js/app.js'));
+
+        if (file_exists(resource_path('js/app.js'))) {
+            unlink(resource_path('js/app.js'));
+        }
 
         $this->replaceInFile('.vue', '.jsx', base_path('tailwind.config.js'));
 
@@ -221,6 +224,6 @@ trait InstallsInertiaStacks
 
         $this->replaceInFile("'enabled' => false", "'enabled' => true", config_path('inertia.php'));
         $this->replaceInFile('vite build', 'vite build && vite build --ssr', base_path('package.json'));
-        $this->replaceInFile('/storage/*.key', '/storage/ssr'.PHP_EOL.'/storage/*.key', base_path('.gitignore'));
+        $this->replaceInFile('/node_modules', '/bootstrap/ssr'.PHP_EOL.'/node_modules', base_path('.gitignore'));
     }
 }
